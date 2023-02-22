@@ -1,4 +1,3 @@
-
 // ---------------------
 // Variables
 // ---------------------
@@ -7,31 +6,52 @@ $debug: false;
 
 // --- colors ---
 $clr10: #ffffff;
-$clr11: #969FAD;
-$clr12: #FC7614;
-$clr13: #262E38;
-$clr14: #131518;
-$clr15: #7C8798;
+$clr11: #ECF2FF;
+$clr12: #303B59;
+$clr13: #CAC9FF;
+// $clr14: #131518;
+// $clr15: #7C8798;
 
+$reaction: #FF5555;
+$reactionBck: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    #FF5555;
 
-$backroundGradient: (
-    98.96% 98.96% at 50% 0%,
-    #232A34 0%,
-    #181E27 100%
-);
+$memory: #FFB21E;
+$memoryBck: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    #FFB21E;
+
+$verbal: #00BB8F;
+$verbalBck: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    #00BB8F;
+
+$visual: #1125D6;
+$visualBck: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    #1125D6;
+
+$backroundGradient1: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+
+$backroundGradient2: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+
+$bttnGradient: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
 // --- break points ---
 
 
 // --- font-sizes ---
 
-$h1Max: 1.75rem; //28px
-$h1Min: 1.5rem; //24px
+$h1Max: 4.5rem; //72px
+$h1Min: 3.5rem; //56px
 
-$parMax: .9375rem; //15px
-$parMin: .875rem; //14px
+$h2Max: 2rem; //32px
+$h2Min: 1.5rem; //24px
 
-$btnMax: .9375rem; //15px
-$btnMin: .875rem; //14px
+$h3Max: 24px; //24px
+$h3Min: 1.125rem; //18px
 
-$numMax: 1rem; //16px
-$numMin: .875rem; //14px
+$bttnMax: 1.125rem; //18px
+$bttnMin: 1.125rem; //18px
+
+$sumMax: 1.125rem; //18px
+$sumMin: 1rem; //16px
+
+$parMax: 1.125rem; //18px
+$parMin: 1rem; //16px
